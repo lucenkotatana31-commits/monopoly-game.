@@ -1402,3 +1402,16 @@ io.on("connection", socket => {
 server.listen(process.env.PORT || 3000, () => {
   console.log("Monopoly працює на http://localhost:3000");
 });
+{
+  "name": "monopoly-game",
+  "version": "1.0.0",
+  "description": "Монополія для друзів",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
